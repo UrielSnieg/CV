@@ -1,0 +1,241 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+    /*Barra de navegación*/
+header i {
+    font-size: 20px;
+    margin: 0 18px;
+    align-self: center;
+}
+
+div#barra-de-navegacion {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 55px;
+    background: white;
+    border-bottom: 1px solid;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+div#barra-de-navegacion nav ul {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+div#barra-de-navegacion nav ul li {
+    display: flex;
+    align-items: center;
+    
+    width: auto;
+    height: 100%;
+    margin: 0px 25px;
+    justify-content: center;
+    float: left;
+}
+
+div#barra-de-navegacion nav ul li a {
+    font-family: 'Raleway', sans-serif; 
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+/*Barra de navegación*/
+
+/*Perfil*/
+section#perfil {
+    background-color: rgb(12, 84, 143);
+    border-bottom: 1px solid rgb(161, 161, 161);
+    padding-bottom: 55px;
+    padding-top: 25px;
+}
+
+section#perfil img {
+    margin: 70px 20px 10px 20px; 
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 100px;
+    background-color:  rgb(107, 122, 145);
+}
+
+/*Nombre del perfil*/
+section#perfil h1 {
+    font-size: 32px;
+    font-family: arial;
+    margin: 0px 5px 10px 15px;
+}
+/*Perfil*/
+
+/*Datos personales*/
+section#datos-personales {
+    background-color: rgb(209, 209, 209);
+    border-bottom: solid 1px rgb(161, 161, 161);
+}
+
+section#datos-personales h1 {
+    padding: 50px 20px 35px 5px;
+    font-size: 25px;
+    font-family: arial;
+    flex-direction: column;
+    text-decoration: underline;
+    margin-left: 12px;
+}
+
+div#datos {
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+div#datos h2 {
+    font-size: 17px;
+    font-family: Arial; 
+    margin: 14px -3px;
+    margin-left: 20px;
+}
+/*Datos personales*/
+
+/*Objetivo profesional*/
+section#objetivo-profesional {
+    background-color: rgb(209, 209, 209);
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid rgb(161, 161, 161);;
+}
+
+div#objetivo p {
+    font-family: Arial;
+    margin: 80px -3px;
+    font-size: 18px;
+    
+}   
+
+div#objetivo h2 {
+    font-family: Arial;
+    margin: 14px -3px;
+    text-decoration: underline;
+}
+/*Objetivo profesional*/
+
+/*Educación*/
+section#educacion {
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    padding-bottom: 100px;
+    background-color: rgb(209, 209, 209);;
+    border-bottom: 1px solid rgb(161, 161, 161);;
+}
+
+div#educaciondiv h2 {
+    font-family: Arial;
+    margin: 32px -3px;
+    text-decoration: underline;
+}
+
+div#educaciondiv li {
+    font-family: arial;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+section#educacion {
+    padding-bottom: 50px;
+}
+/*Educacion*/
+
+/*Experiencia Laboral*/
+
+section#experiencialaboral {
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: rgb(209, 209, 209);
+}
+
+section#experiencialaboral h2 {
+    font-family: Arial;
+    margin: 32px -3px;
+    text-decoration: underline;
+}
+
+section#experiencialaboral li {
+    font-family: arial;
+    margin: 10px;
+    margin-bottom: 20px
+}
+
+/* Contactos Pagina */
+section#contactos {
+    background-color: rgb(209, 209, 209);
+    padding: 20px;
+    padding-bottom: 50px;
+    
+}
+
+section#contactos h2 {
+    font-family: arial;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+section#contactos p {
+    font-family: arial;
+    margin-bottom: 26px;
+}
+/* Contactos pagina*/
+
+section#proyectos {
+    background-color: rgb(209, 209, 209);
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+section#proyectos h2 {
+    font-family: arial;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+section#proyectos p {
+    font-family: arial;
+    margin-bottom: 26px;
+}
+
+div#parrafos {
+    padding-bottom: 15px;
+}
+
+section#proyectos h3 {
+    font-family: arial;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 21px;
+
+}
+
+#miboton {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 1px solid ;
+    border-radius: 5px;
+    margin: 15px;
+}
