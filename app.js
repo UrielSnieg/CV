@@ -4,4 +4,3 @@ document.getElementById('miboton').onclick = function () {
 }
 
 
-// No me dio tiempo para implementar mas 
